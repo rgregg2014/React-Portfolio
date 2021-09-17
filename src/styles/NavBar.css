@@ -1,0 +1,18 @@
+.navigation {
+  background-color: #17bebb;
+}
+
+#head {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 250%;
+  padding: 1.6%;
+  color: azure;
+}
+
+#navbarTogglerDemo02 {
+  justify-content: end;
+  padding: 1.6%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 150%;
+  color: azure;
+}
