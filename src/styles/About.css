@@ -8,6 +8,16 @@
   font-family: "Lato", sans-serif;
 }
 
-.aboutMe {
+/* .aboutMe {
   padding: 5%;
+} */
+
+.aboutCard {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  text-align: center;
+  margin: 3%;
+  padding: 3%;
+  box-shadow: 5px 5px 5px darkgray;
+  background-color: rgb(254, 255, 255);
 }

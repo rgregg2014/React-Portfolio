@@ -9,3 +9,7 @@
   margin-left: 0.5%;
   box-shadow: 1px 1px 5px darkgrey;
 }
+
+.white {
+  background-color: rgb(254, 255, 255);
+}

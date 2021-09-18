@@ -6,9 +6,9 @@ function Portfolio() {
     <div className="portfolioBoard">
       {/* Highlighted Portfolio Item */}
       <div className="card maxi">
-        <div className="card-body">
+        <div className="card-body white">
           <h5 className="card-title">BUCKET</h5>
-          <div className="card-body">
+          <div className="card-body white">
             <a
               href="https://aspirational-bucket.herokuapp.com/"
               className="card-link"
@@ -48,7 +48,7 @@ function Portfolio() {
               className="card-img-top"
               alt="Screenshot for STKR"
             ></img>
-            <div className="card-body">
+            <div className="card-body white">
               <h5 className="card-title">STKR</h5>
               <p className="card-text">
                 STKR is a front-end application using two exteral APIs to
@@ -74,7 +74,7 @@ function Portfolio() {
               className="card-img-top"
               alt="Screenshot for Work Day Scheduler"
             ></img>
-            <div className="card-body">
+            <div className="card-body white">
               <h5 className="card-title">Work Day Scheduler</h5>
               <p className="card-text">
                 Need a place to keep track of your workday? Here's the app for
@@ -113,7 +113,7 @@ function Portfolio() {
               className="card-img-top"
               alt="Screenshot for Note Taker"
             ></img>
-            <div className="card-body">
+            <div className="card-body white">
               <h5 className="card-title">Note Taker</h5>
               <p className="card-text">
                 This simple, easy-to-use note taking app uses MySQL and Express
@@ -146,7 +146,7 @@ function Portfolio() {
               className="card-img-top"
               alt="Screenshot for Password Generator"
             ></img>
-            <div className="card-body">
+            <div className="card-body white">
               <h5 className="card-title">Password Generator</h5>
               <p className="card-text">
                 This password generator is easy to use, fast, and dynamic.

@@ -17,8 +17,8 @@ function Contact() {
           <h3 className="label">rgregg2014@gmail.com</h3>
         </div>
       </div>
-      <form>
-        <div className="form-group">
+      <form className="formCard white">
+        <div className="form-group white">
           <label className="label" for="exampleInputEmail1">
             Email address
           </label>
@@ -32,13 +32,13 @@ function Contact() {
             Please leave your email address, and I'll get back to you ASAP!
           </small>
         </div>
-        <div className="form-group name">
+        <div className="form-group name white">
           <label className="label" for="exampleInputPassword1">
             Name
           </label>
           <input type="text" className="form-control" id="name"></input>
         </div>
-        <div className="form-group">
+        <div className="form-group white">
           <label className="label" for="exampleFormControlTextarea1">
             Leave me a brief message!
           </label>

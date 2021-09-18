@@ -4,7 +4,7 @@ import "../styles/NavBar.css";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navigation">
+    <nav className="navbar navbar-expand-lg navbar-light navigation blue">
       <h2 className="navbar-brand bitter" id="head">
         Rachel Gregg
       </h2>
@@ -20,7 +20,7 @@ function Navbar({ currentPage, handlePageChange }) {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div className="collapse navbar-collapse blue" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
             <a
