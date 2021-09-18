@@ -1,7 +1,8 @@
 import React from "react";
+
 import "../styles/NavBar.css";
 
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navigation">
       <a className="navbar-brand" id="head" href="/">
@@ -22,22 +23,46 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <a
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+              href="#about"
+              onClick={() => handlePageChange("About")}
+            >
               About Me
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/portfolio">
+            <a
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+            >
               Portfolio
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
+            <a
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+            >
               Contact Me
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/resume">
+            <a
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+            >
               Resume
             </a>
           </li>

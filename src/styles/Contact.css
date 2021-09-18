@@ -1,3 +1,22 @@
-#contact {
+h2,
+a,
+p {
+  text-align: center;
+}
+
+form {
+  margin: 1.5%;
+}
+
+.contact {
   font-family: "Courier New", Courier, monospace;
+}
+
+.name {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.button {
+  margin-top: 2%;
 }
