@@ -1,3 +1,11 @@
-.portfolioBoard {
-  font-family: "Courier New", Courier, monospace;
+.maxi {
+  margin: 2%;
+  box-shadow: 5px 5px 5px darkgrey;
+}
+
+.indie {
+  padding: 1.5%;
+  margin-bottom: 2%;
+  margin-left: 0.5%;
+  box-shadow: 1px 1px 5px darkgrey;
 }

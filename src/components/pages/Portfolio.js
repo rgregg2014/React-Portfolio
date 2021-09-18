@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <div className="portfolioBoard">
       {/* Highlighted Portfolio Item */}
-      <div className="card">
+      <div className="card maxi">
         <div className="card-body">
           <h5 className="card-title">BUCKET</h5>
           <div className="card-body">
@@ -40,9 +40,9 @@ function Portfolio() {
         ></img>
       </div>
       {/* Secondary Portfolio Items */}
-      <div className="card-deck container">
+      <div className="card-deck container mini">
         <div className="row">
-          <div className="card col-sm">
+          <div className="card col-sm indie">
             <img
               src="..."
               className="card-img-top"
@@ -68,7 +68,7 @@ function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="card col-sm">
+          <div className="card col-sm indie">
             <img
               src="..."
               className="card-img-top"
@@ -107,7 +107,7 @@ function Portfolio() {
         </div>
 
         <div className="row">
-          <div className="card col-sm">
+          <div className="card col-sm indie">
             <img
               src="..."
               className="card-img-top"
@@ -140,7 +140,7 @@ function Portfolio() {
               </a>
             </div>
           </div>
-          <div className="card col-sm">
+          <div className="card col-sm indie">
             <img
               src="..."
               className="card-img-top"

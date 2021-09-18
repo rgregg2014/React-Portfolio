@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500;600&family=Lato:wght@400;700&display=swap");
+
 .navigation {
   background-color: #17bebb;
 }
 
 #head {
-  font-family: "Courier New", Courier, monospace;
   font-size: 250%;
   padding: 1.6%;
   color: azure;
@@ -15,4 +16,12 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 150%;
   color: azure;
+}
+
+.label {
+  font-family: "Bitter", serif;
+}
+
+.minor {
+  font-family: "Lato", sans-serif;
 }

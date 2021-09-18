@@ -5,9 +5,9 @@ import "../styles/NavBar.css";
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navigation">
-      <a className="navbar-brand" id="head" href="/">
+      <h2 className="navbar-brand bitter" id="head">
         Rachel Gregg
-      </a>
+      </h2>
       <button
         className="navbar-toggler"
         type="button"
@@ -25,7 +25,9 @@ function Navbar({ currentPage, handlePageChange }) {
           <li className="nav-item">
             <a
               className={
-                currentPage === "About" ? "nav-link active" : "nav-link"
+                currentPage === "About"
+                  ? "nav-link active minor"
+                  : "nav-link minor"
               }
               href="#about"
               onClick={() => handlePageChange("About")}

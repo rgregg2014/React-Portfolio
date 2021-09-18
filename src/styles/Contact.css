@@ -1,15 +1,13 @@
-h2,
-a,
-p {
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500;600&family=Lato:wght@400;700&display=swap");
+
+.jumbotron {
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 form {
   margin: 1.5%;
-}
-
-.contact {
-  font-family: "Courier New", Courier, monospace;
 }
 
 .name {
@@ -19,4 +17,16 @@ form {
 
 .button {
   margin-top: 2%;
+}
+
+.label {
+  font-family: "Bitter", serif;
+}
+
+.minor {
+  font-family: "Lato", sans-serif;
+}
+
+.lead {
+  padding: 2%;
 }
