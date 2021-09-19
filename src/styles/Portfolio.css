@@ -13,3 +13,8 @@
 .white {
   background-color: rgb(254, 255, 255);
 }
+
+.big {
+  max-height: 100%;
+  max-width: 100%;
+}

@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "../../styles/Contact.css";
 
 function Contact() {
+  const [missingFields, setMissingFields] = useState(false);
+  // const nameRef = useRef();
+  // const emailRef = useRef();
+  // const messageRef = useRef();
   const handleSubmit = (event) => {
     event.preventDefault();
+    // let name = nameRef.current.value;
+    // let email = emailRef.current.value;
+    // let message = messageRef.current.value;
+
+    // if (name && email && message) {
+    //   setMissingFields(false);
+    //   console.log("No missing fields");
+    // } else {
+    //   setMissingFields(true);
+    //   console.log("Missing Fields!");
+    // }
   };
 
   return (
@@ -19,30 +34,35 @@ function Contact() {
       </div>
       <form className="formCard white">
         <div className="form-group white">
-          <label className="label" for="exampleInputEmail1">
-            Email address
-          </label>
+          <label className="label">Email address</label>
           <input
             type="email"
             className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            // ref={emailRef}
           ></input>
           <small id="emailHelp" className="form-text text-muted minor">
             Please leave your email address, and I'll get back to you ASAP!
           </small>
         </div>
         <div className="form-group name white">
-          <label className="label" for="exampleInputPassword1">
-            Name
-          </label>
-          <input type="text" className="form-control" id="name"></input>
+          <label className="label">Name</label>
+          <input
+            type="text"
+            className="form-control"
+            id="name"
+            // ref={nameRef}
+          ></input>
         </div>
         <div className="form-group white">
-          <label className="label" for="exampleFormControlTextarea1">
-            Leave me a brief message!
-          </label>
-          <textarea className="form-control" id="message" rows="3"></textarea>
+          <label className="label">Leave me a brief message!</label>
+          <textarea
+            className="form-control"
+            id="message"
+            rows="3"
+            // ref={messageRef}
+          ></textarea>
         </div>
         <button
           type="submit"

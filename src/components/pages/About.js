@@ -1,11 +1,13 @@
 import React from "react";
 import "../../styles/About.css";
+import profilePhoto from "../../images/profilePhoto3.jpg";
 
 function About() {
   return (
     <div className="aboutMe">
       <div className="aboutCard">
         <h2 className="label">About Me</h2>
+        <img src={profilePhoto} alt="GitHub profile" className="photo"></img>
         <br></br>
         <p className="minor">
           I'm Rachel, thanks for stopping by! I'm a web developer based in

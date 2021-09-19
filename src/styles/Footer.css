@@ -1,5 +1,14 @@
 footer {
   text-align: center;
   padding: 1.5%;
+  /* background-color: #f0f0f0; */
+}
+
+.logo {
+  max-height: 25%;
+  max-width: 25%;
+}
+
+.white {
   background-color: #f0f0f0;
 }

@@ -1,5 +1,10 @@
 import React from "react";
 import "../../styles/Portfolio.css";
+import bucket from "../../images/bucket.png";
+import note from "../../images/NoteTaker.png";
+import PWDGen from "../../images/PWDgen.png";
+import STKR from "../../images/STKRHeader.png";
+import WDSched from "../../images/WDSched.png";
 
 function Portfolio() {
   return (
@@ -15,7 +20,10 @@ function Portfolio() {
             >
               Live Deployment
             </a>
-            <a href="https://github.com/Dobbs96/BUCKET" className="card-link">
+            <a
+              href="https://github.com/Dobbs96/BUCKET"
+              className="card-link big"
+            >
               GitHub Repository
             </a>
           </div>
@@ -34,7 +42,7 @@ function Portfolio() {
           </p>
         </div>
         <img
-          src="..."
+          src={bucket}
           className="card-img-bottom"
           alt="A screenshot of the top of the header for BUCKET"
         ></img>
@@ -44,8 +52,8 @@ function Portfolio() {
         <div className="row">
           <div className="card col-sm indie">
             <img
-              src="..."
-              className="card-img-top"
+              src={STKR}
+              className="card-img-top little"
               alt="Screenshot for STKR"
             ></img>
             <div className="card-body white">
@@ -70,8 +78,8 @@ function Portfolio() {
           </div>
           <div className="card col-sm indie">
             <img
-              src="..."
-              className="card-img-top"
+              src={WDSched}
+              className="card-img-top little"
               alt="Screenshot for Work Day Scheduler"
             ></img>
             <div className="card-body white">
@@ -109,8 +117,8 @@ function Portfolio() {
         <div className="row">
           <div className="card col-sm indie">
             <img
-              src="..."
-              className="card-img-top"
+              src={note}
+              className="card-img-top little"
               alt="Screenshot for Note Taker"
             ></img>
             <div className="card-body white">
@@ -142,8 +150,8 @@ function Portfolio() {
           </div>
           <div className="card col-sm indie">
             <img
-              src="..."
-              className="card-img-top"
+              src={PWDGen}
+              className="card-img-top little"
               alt="Screenshot for Password Generator"
             ></img>
             <div className="card-body white">
