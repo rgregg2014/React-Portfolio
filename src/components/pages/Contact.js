@@ -1,24 +1,9 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "../../styles/Contact.css";
 
 function Contact() {
-  const [missingFields, setMissingFields] = useState(false);
-  // const nameRef = useRef();
-  // const emailRef = useRef();
-  // const messageRef = useRef();
   const handleSubmit = (event) => {
     event.preventDefault();
-    // let name = nameRef.current.value;
-    // let email = emailRef.current.value;
-    // let message = messageRef.current.value;
-
-    // if (name && email && message) {
-    //   setMissingFields(false);
-    //   console.log("No missing fields");
-    // } else {
-    //   setMissingFields(true);
-    //   console.log("Missing Fields!");
-    // }
   };
 
   return (
