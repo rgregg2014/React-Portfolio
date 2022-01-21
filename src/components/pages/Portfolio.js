@@ -16,12 +16,16 @@ function Portfolio() {
           <div className="card-body white">
             <a
               href="https://live-pr3-algodish.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer noopener"
               className="card-link"
             >
               Live Deployment
             </a>
             <a
               href="https://github.com/Brondchux/pr3-algodish"
+              target="_blank"
+              rel="noreferrer noopener"
               className="card-link big"
             >
               GitHub Repository
@@ -67,10 +71,20 @@ function Portfolio() {
                 <small className="text-muted">HTML, CSS, JavaScript</small>
               </p>
               <br></br>
-              <a href="https://naf15.github.io/STKR/" className="card-link">
+              <a
+                href="https://naf15.github.io/STKR/"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Live Deployment
               </a>
-              <a href="https://github.com/naf15/STKR" className="card-link">
+              <a
+                href="https://github.com/naf15/STKR"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 GitHub Repository
               </a>
             </div>
@@ -99,11 +113,18 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://aspirational-bucket.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="card-link"
               >
                 Live Deployment
               </a>
-              <a href="https://github.com/Dobbs96/BUCKET" className="card-link">
+              <a
+                href="https://github.com/Dobbs96/BUCKET"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 GitHub Repository
               </a>
             </div>
@@ -132,12 +153,16 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://taking-notes-1206.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="card-link"
               >
                 Live Deployment
               </a>
               <a
                 href="https://github.com/rgregg2014/HW11-NotesApp"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="card-link"
               >
                 GitHub Repository
@@ -163,12 +188,16 @@ function Portfolio() {
               <br></br>
               <a
                 href="https://rgregg2014.github.io/Password-Generator/"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="card-link"
               >
                 Live Deployment
               </a>
               <a
                 href="https://github.com/rgregg2014/Password-Generator"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="card-link"
               >
                 GitHub Repository

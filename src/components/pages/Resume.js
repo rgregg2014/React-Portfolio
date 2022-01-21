@@ -5,6 +5,17 @@ function Resume() {
   return (
     <div className="resume">
       <div className="resumeCard">
+        <h2>
+          <a
+            href="https://docs.google.com/document/d/1htUflow_PCOc6p56ifWNjpv84gcIFm2J6r5bnCYktVI/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Check out my resume here!
+          </a>
+        </h2>
+      </div>
+      <div className="resumeCard">
         <h2>Development Proficiencies</h2>
         <ul>
           <li>HTML</li>
