@@ -22,7 +22,17 @@ function About() {
         <p className="minor">
           With an aptitude with complex design softwares and an educational
           background in media communications, the move into web design and
-          development felt like a natural evolution of my skills.
+          development felt like a natural evolution of my skills. I completed
+          the Columbia University Full-Stack Coding Bootcamp in the fall of 2021
+          and was asked to come on as a teaching assistant shortly after. I love
+          working with my students and helping them reach that "Ah Ha" moment
+          where their JavaScript finally works!
+        </p>
+        <br></br>
+        <p className="minor">
+          In my spare time, I like to read and write. I am currently working on
+          a multi-media augmented reality game to explore how different ways of
+          building a narrative impacts the way the end story is received.
         </p>
       </div>
     </div>

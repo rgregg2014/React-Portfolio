@@ -2,22 +2,61 @@ import React from "react";
 import "../../styles/Contact.css";
 
 function Contact() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  // };
 
   return (
     <div className="contact">
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h2 className="display-4">Thanks for Stopping By!</h2>
-          <p className="lead">
+          {/* <p className="lead">
             Want to contact me directly? Shoot me an email at:
-          </p>
-          <h3 className="label">rgregg2014@gmail.com</h3>
+          </p> */}
+
+          <h3 className="label">Where to Find Me</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                YouTube
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.github.com/rgregg2014"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <form className="formCard white">
+      {/* <form className="formCard white">
         <div className="form-group white">
           <label className="label">Email address</label>
           <input
@@ -56,7 +95,7 @@ function Contact() {
         >
           Submit
         </button>
-      </form>
+      </form> */}
     </div>
   );
 }
