@@ -22,3 +22,8 @@ package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# image edit files
+NoteTaker.xcf
+ipad-view-algodish.xcf
+ipad-view-algodish.png

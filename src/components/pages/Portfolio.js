@@ -4,7 +4,7 @@ import bucket from "../../images/bucket.png";
 import note from "../../images/NoteTaker.png";
 import PWDGen from "../../images/PWDgen.png";
 import STKR from "../../images/STKRHeader.png";
-import WDSched from "../../images/WDSched.png";
+import algoDish from "../../images/ipad-view-algodish-crop.png";
 
 function Portfolio() {
   return (
@@ -12,39 +12,38 @@ function Portfolio() {
       {/* Highlighted Portfolio Item */}
       <div className="card maxi">
         <div className="card-body white">
-          <h5 className="card-title">BUCKET</h5>
+          <h5 className="card-title">algoDish</h5>
           <div className="card-body white">
             <a
-              href="https://aspirational-bucket.herokuapp.com/"
+              href="https://live-pr3-algodish.herokuapp.com/"
               className="card-link"
             >
               Live Deployment
             </a>
             <a
-              href="https://github.com/Dobbs96/BUCKET"
+              href="https://github.com/Brondchux/pr3-algodish"
               className="card-link big"
             >
               GitHub Repository
             </a>
           </div>
           <p className="card-text">
-            BUCKET is a simple way to keep your aspirations organized into a
-            personal list. This is a full stack application leveraging an SQL
-            database to allow for authentication and cookies for session
-            storage. The front-end uses express-handlebars to dynamically
-            generate cards based on user input. User-interface elements and
-            parallax scrolling supported by Materialize CSS.
+            Share your favorite recipes with algoDish: an easy way to find your
+            new favorite weeknight dinner. This full-stack application is built
+            in React and supported by a noSQL database using MongoDB. Styling is
+            supported using the Semantic UI for React npm package. Routes are
+            built with Apollo Server and use a GraphQL API.
           </p>
           <p className="card-text">
             <small className="text-muted">
-              HTML, CSS, JavaScript, MySQL, Sequelize, Express
+              React, Semantic UI, MongoDB, Mongoose, Apollo, GraphQL
             </small>
           </p>
         </div>
         <img
-          src={bucket}
+          src={algoDish}
           className="card-img-bottom"
-          alt="A screenshot of the top of the header for BUCKET"
+          alt="A screenshot of the top of the ipad view of algoDish"
         ></img>
       </div>
       {/* Secondary Portfolio Items */}
@@ -78,36 +77,33 @@ function Portfolio() {
           </div>
           <div className="card col-sm indie">
             <img
-              src={WDSched}
+              src={bucket}
               className="card-img-top little"
               alt="Screenshot for Work Day Scheduler"
             ></img>
             <div className="card-body white">
-              <h5 className="card-title">Work Day Scheduler</h5>
+              <h5 className="card-title">BUCKET</h5>
               <p className="card-text">
-                Need a place to keep track of your workday? Here's the app for
-                you. This exercise uses Moment.js and jQuery to keep track of
-                your appointments. Using Moment, the app checks the date and
-                local time when the page loads and applies different colors to
-                hour blocks for easy user reference. Styling supported by
-                Bootstrap.
+                BUCKET is a simple way to keep your aspirations organized into a
+                personal list. This is a full stack application leveraging an
+                SQL database to allow for authentication and cookies for session
+                storage. The front-end uses express-handlebars to dynamically
+                generate cards based on user input. User-interface elements and
+                parallax scrolling supported by Materialize CSS.
               </p>
               <p className="card-text">
                 <small className="text-muted">
-                  HTML, CSS, JavaScript, jQuery, Moment.js
+                  HTML, CSS, JavaScript, MySQL, Sequelize, Express
                 </small>
               </p>
               <br></br>
               <a
-                href="https://rgregg2014.github.io/HW-05-ThirdPartyAPIs/"
+                href="https://aspirational-bucket.herokuapp.com/"
                 className="card-link"
               >
                 Live Deployment
               </a>
-              <a
-                href="https://github.com/rgregg2014/HW-05-ThirdPartyAPIs"
-                className="card-link"
-              >
+              <a href="https://github.com/Dobbs96/BUCKET" className="card-link">
                 GitHub Repository
               </a>
             </div>
