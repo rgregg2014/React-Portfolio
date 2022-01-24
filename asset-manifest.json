@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.ec309dde.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.37f9c348.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.37f9c348.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.2cff3176.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.25a44ff7.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.25a44ff7.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.24514994.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.24514994.js.map",
     "static/css/2.f2512455.chunk.css": "/React-Portfolio/static/css/2.f2512455.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.2ae0c515.chunk.js.map": "/React-Portfolio/static/js/2.2ae0c515.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.f2512455.chunk.css.map": "/React-Portfolio/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.ec309dde.chunk.css.map": "/React-Portfolio/static/css/main.ec309dde.chunk.css.map",
+    "static/css/main.2cff3176.chunk.css.map": "/React-Portfolio/static/css/main.2cff3176.chunk.css.map",
     "static/js/2.2ae0c515.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.2ae0c515.chunk.js.LICENSE.txt",
     "static/media/NoteTaker.838ae0ef.png": "/React-Portfolio/static/media/NoteTaker.838ae0ef.png",
     "static/media/PWDgen.44d60494.png": "/React-Portfolio/static/media/PWDgen.44d60494.png",
     "static/media/STKRHeader.3a5c1ec7.png": "/React-Portfolio/static/media/STKRHeader.3a5c1ec7.png",
-    "static/media/WDSched.2e499b5e.png": "/React-Portfolio/static/media/WDSched.2e499b5e.png",
     "static/media/bucket.e9d32a11.png": "/React-Portfolio/static/media/bucket.e9d32a11.png",
     "static/media/github.69ffd9cd.png": "/React-Portfolio/static/media/github.69ffd9cd.png",
+    "static/media/ipad-view-algodish-crop.163fde2f.png": "/React-Portfolio/static/media/ipad-view-algodish-crop.163fde2f.png",
     "static/media/linked.a680cb8a.png": "/React-Portfolio/static/media/linked.a680cb8a.png",
     "static/media/profilePhoto3.a95d9da6.jpg": "/React-Portfolio/static/media/profilePhoto3.a95d9da6.jpg",
     "static/media/stack.0eee4bbd.png": "/React-Portfolio/static/media/stack.0eee4bbd.png"
@@ -26,7 +26,7 @@
     "static/js/runtime-main.24514994.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.2ae0c515.chunk.js",
-    "static/css/main.ec309dde.chunk.css",
-    "static/js/main.37f9c348.chunk.js"
+    "static/css/main.2cff3176.chunk.css",
+    "static/js/main.25a44ff7.chunk.js"
   ]
 }
