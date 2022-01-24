@@ -20,7 +20,7 @@ function Contact() {
             <ul>
               <li>
                 <a
-                  href="https://www.twitter.com"
+                  href="https://twitter.com/raeontheweb"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="minor"
@@ -28,7 +28,7 @@ function Contact() {
                   Twitter
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://www.youtube.com"
                   target="_blank"
@@ -37,7 +37,7 @@ function Contact() {
                 >
                   YouTube
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://www.github.com/rgregg2014"
@@ -50,7 +50,7 @@ function Contact() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/rachel-gregg-35b59a208/"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="minor"
