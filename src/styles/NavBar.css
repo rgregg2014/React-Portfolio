@@ -14,8 +14,12 @@
   justify-content: end;
   padding: 1.6%;
   font-family: "Courier New", Courier, monospace;
-  font-size: 150%;
+  /* font-size: 150%; */
   color: azure;
+}
+
+#weirdo {
+  font-size: 100%;
 }
 
 .label {
@@ -24,4 +28,8 @@
 
 .minor {
   font-family: "Lato", sans-serif;
+}
+
+.nav-item {
+  font-size: 150%;
 }

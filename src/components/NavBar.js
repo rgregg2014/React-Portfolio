@@ -22,7 +22,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
       <div className="collapse navbar-collapse blue" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item">
+          <li className="nav-item" id="weirdo">
             <a
               className={
                 currentPage === "About"
