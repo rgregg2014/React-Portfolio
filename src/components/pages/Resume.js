@@ -10,6 +10,7 @@ function Resume() {
             href="https://docs.google.com/document/d/1htUflow_PCOc6p56ifWNjpv84gcIFm2J6r5bnCYktVI/edit?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
+            id="resumeLink"
           >
             Check out my resume here!
           </a>
